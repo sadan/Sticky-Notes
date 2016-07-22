@@ -19,6 +19,9 @@ from django.contrib import admin
 from backend.notes import urls as notes_urls
 
 urlpatterns = [
+    # Django grappelli URL, comes before django admin URL
+    url(r'^grappelli/', include('grappelli.urls')),
+
     url(r'^admin/', admin.site.urls),
 
     # Local app urls

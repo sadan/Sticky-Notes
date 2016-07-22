@@ -3,3 +3,4 @@ psycopg2==2.6.1
 djangorestframework==3.4.0
 Markdown==2.6.6
 django-filter==0.13.0
+django-grappelli==2.8.1

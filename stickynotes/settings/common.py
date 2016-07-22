@@ -28,7 +28,9 @@ ALLOWED_HOSTS = []
 
 # Application definition
 THEMING_APPS = [
-
+    # Admin Styling, It must be at the top
+    # https://django-grappelli.readthedocs.org/en/latest/
+    'grappelli',
 ]
 
 DJANGO_DEFAULT_APPS = [
