@@ -51,6 +51,8 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     'backend',
     'backend.notes',
+    'monitor',
+    'monitor.notes'
 ]
 
 INSTALLED_APPS = THEMING_APPS + DJANGO_DEFAULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS
