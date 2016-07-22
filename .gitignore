@@ -90,3 +90,8 @@ ENV/
 
 # PyCharm
 .idea
+
+# Frontend
+frontend/node_modules/
+frontend/.idea/
+frontend/.tmp/
