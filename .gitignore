@@ -95,3 +95,4 @@ ENV/
 frontend/node_modules/
 frontend/.idea/
 frontend/.tmp/
+frontend/typings/
