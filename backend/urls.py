@@ -22,6 +22,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 
     # Local app urls
-    url(r'^api/v1/users/', include(notes_urls)),
+    url(r'^api/v1/notes/', include(notes_urls)),
 
 ]

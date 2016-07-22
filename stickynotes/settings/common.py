@@ -40,7 +40,11 @@ DJANGO_DEFAULT_APPS = [
     'django.contrib.staticfiles',
 ]
 
-THIRD_PARTY_APPS = []
+THIRD_PARTY_APPS = [
+    # Django Rest Framework
+    # http://www.django-rest-framework.org/
+    'rest_framework',
+]
 
 LOCAL_APPS = [
     'backend',
