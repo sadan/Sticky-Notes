@@ -8,25 +8,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
-var router_1 = require("@angular/router");
-var notes_service_1 = require("../notes/notes.service");
-// import './rxjs-operators';
-var HomeComponent = (function () {
-    function HomeComponent() {
+var core_1 = require('@angular/core');
+var NewNoteComponent = (function () {
+    function NewNoteComponent() {
     }
-    HomeComponent = __decorate([
+    NewNoteComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'my-app',
-            templateUrl: 'home.component.html',
-            styleUrls: ['home.component.css'],
-            directives: [router_1.ROUTER_DIRECTIVES],
-            providers: [notes_service_1.NoteService]
+            selector: 'my-new-note',
+            templateUrl: 'new-note.component.html',
+            styleUrls: ['new-note.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], HomeComponent);
-    return HomeComponent;
+    ], NewNoteComponent);
+    return NewNoteComponent;
 }());
-exports.HomeComponent = HomeComponent;
-//# sourceMappingURL=home.component.js.map
+exports.NewNoteComponent = NewNoteComponent;
+//# sourceMappingURL=new-note.component.js.map

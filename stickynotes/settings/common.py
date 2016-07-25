@@ -58,6 +58,7 @@ LOCAL_APPS = [
 INSTALLED_APPS = THEMING_APPS + DJANGO_DEFAULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
 MIDDLEWARE_CLASSES = [
+    'stickynotes.middlewares.cors_middleware.CrossDomainRequestMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

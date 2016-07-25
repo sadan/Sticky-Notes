@@ -1,1 +1,10 @@
-<h1>Sticky Notes Home!</h1>
+<title>Sticky Notes</title>
+<nav class="navbar navbar-default navbar-fixed-top navbar-light">
+    <div class="container">
+        <div class="nav navbar-nav">
+            <a class="navbar-brand">Sticky Notes</a>
+            <a class="navbar-brand" [routerLink]="['/notes']" routerLinkActive="active">Notes</a>
+        </div>
+    </div>
+</nav>
+<router-outlet></router-outlet>

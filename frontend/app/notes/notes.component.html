@@ -1,0 +1,21 @@
+<div class="container">
+    <button type="button"
+            class="btn btn-primary btn-round btn-lg"
+            (click)="addNewNote()"
+            style="float: right;">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    </button>
+
+    <ul class="col-md-3" style="list-style: none">
+        <li class="note"
+            *ngFor="let note of notes">
+            <form>
+                <fieldset>
+                    <textarea class="note-textarea" id="noteTextarea">{{ note.text }}</textarea>
+                </fieldset>
+            </form>
+        </li>
+    </ul>
+
+    <!-- <my-new-note></my-new-note> -->
+</div>
