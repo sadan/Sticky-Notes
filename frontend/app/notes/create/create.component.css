@@ -1,8 +1,16 @@
+#noteTextarea {
+    text-decoration: none;
+    resize: none;
+}
+
 .note {
     width: 250px;
     height: 250px;
     background: #fbd850;
     border: 2px #f6a828;
+    margin: 10px;
+    overflow: hidden;
+    display: inline-block;
 }
 
 .note-textarea {

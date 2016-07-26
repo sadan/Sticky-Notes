@@ -6,17 +6,18 @@
         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
     </button>
 
-    <ul class="col-md-3" style="list-style: none">
-        <li class="note"
-            *ngFor="let note of notes">
-            <form>
-                <fieldset>
-                    <textarea class="note-textarea" id="noteTextarea">{{ note.text }}</textarea>
-                </fieldset>
-            </form>
-        </li>
-    </ul>
-
     <sn-create-note></sn-create-note>
-    <!-- <my-new-note></my-new-note> -->
+
+    <div *ngIf="notes != null && notes.length > 0" class="row-fluid">
+        <div class="span12">
+            <div class="note" *ngFor="let note of notes">
+                <form id="noteForm">
+                    <fieldset>
+                        <textarea class="note-textarea" id="noteTextarea">{{ note.text }}</textarea>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
 </div>
