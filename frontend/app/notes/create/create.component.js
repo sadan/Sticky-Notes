@@ -9,19 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var NewNoteComponent = (function () {
-    function NewNoteComponent() {
+var CreateNoteComponent = (function () {
+    function CreateNoteComponent() {
     }
-    NewNoteComponent = __decorate([
+    CreateNoteComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'my-new-note',
-            templateUrl: 'new-note.component.html',
-            styleUrls: ['new-note.component.css']
+            selector: 'sn-create-note',
+            templateUrl: 'create.component.html',
+            styleUrls: ['create.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], NewNoteComponent);
-    return NewNoteComponent;
+    ], CreateNoteComponent);
+    return CreateNoteComponent;
 }());
-exports.NewNoteComponent = NewNoteComponent;
-//# sourceMappingURL=new-note.component.js.map
+exports.CreateNoteComponent = CreateNoteComponent;
+//# sourceMappingURL=create.component.js.map

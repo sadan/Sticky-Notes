@@ -1,5 +1,5 @@
 import { provideRouter, RouterConfig } from "@angular/router";
-import { NotesComponent } from "../notes/notes.component";
+import { NotesListComponent } from "../notes/list/list.component";
 
 const routes: RouterConfig = [
     {
@@ -9,7 +9,7 @@ const routes: RouterConfig = [
     },
     {
         path: 'notes',
-        component: NotesComponent
+        component: NotesListComponent
     }
 ];
 

@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { NewNoteComponent } from './new-note.component';
 
-import { NoteService } from './notes.service'
-import { Note } from "./note";
+import { Note } from "../models";
+import { NoteService } from "../notes.service";
+import { CreateNoteComponent } from "../create/create.component";
 
 
 @Component({
     moduleId: module.id,
-    selector: 'my-notes',
-    templateUrl: 'notes.component.html',
-    styleUrls: ['notes.component.css'],
-    directives: [NewNoteComponent]
+    selector: 'sn-notes',
+    templateUrl: 'list.component.html',
+    styleUrls: ['list.component.css'],
+    directives: [CreateNoteComponent]
 })
-export class NotesComponent implements OnInit {
+export class NotesListComponent implements OnInit {
     notes: Note[];
     errorMessage: any;
     

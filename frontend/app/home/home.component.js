@@ -11,14 +11,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
 var notes_service_1 = require("../notes/notes.service");
-// import './rxjs-operators';
 var HomeComponent = (function () {
     function HomeComponent() {
     }
     HomeComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'my-app',
+            selector: 'sn-app',
             templateUrl: 'home.component.html',
             styleUrls: ['home.component.css'],
             directives: [router_1.ROUTER_DIRECTIVES],
